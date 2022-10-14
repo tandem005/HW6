@@ -1,5 +1,5 @@
 import os
 
-res = os.system('ping -t api.github.com')
+res = os.system('ping api.github.com')
 
 print(res)
