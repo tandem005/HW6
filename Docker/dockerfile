@@ -1,0 +1,7 @@
+FROM python:3.8
+
+COPY main.py /main.py
+
+WORKDIR ./
+
+CMD ["python", "main.py"]
