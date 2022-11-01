@@ -1,7 +1,7 @@
 services:
-  app:
+  ping:
     build:
       context: .
-      dockerfile: ./docker/dockerfile
+      dockerfile: ./docker/ping/dockerfile
     volumes:
-      - ./:/
+      - ./:/ping
